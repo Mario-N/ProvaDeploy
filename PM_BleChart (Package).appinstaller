@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="https://github.com/Mario-N/ProvaDeploy/PM_BleChart (Package).appinstaller"
+	Version="1.0.11.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<!-- Read more about updating settings with Package.appinstaller at https://docs.microsoft.com/windows/msix/app-installer/update-settings -->
+	<MainBundle
+		Name="F6DF9C75-6D6B-46EE-94A0-99738A2BEA37"
+		Version="1.0.11.0"
+		Publisher="CN=Mario Software"
+		Uri="https://github.com/Mario-N/ProvaDeploy/PM_BleChart (Package)_1.0.11.0_Test/PM_BleChart (Package)_1.0.11.0_x86_x64.msixbundle" />
+	<Dependencies>
+		<Package
+			Name="Microsoft.ProjectReunion.0.8"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x86"
+			Uri="https://github.com/Mario-N/ProvaDeploy/PM_BleChart (Package)_1.0.11.0_Test/Dependencies/x86/Microsoft.ProjectReunion.0.8.msix"
+			Version="8001.186.2159.0" />
+		<Package
+			Name="Microsoft.ProjectReunion.0.8"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="https://github.com/Mario-N/ProvaDeploy/PM_BleChart (Package)_1.0.11.0_Test/Dependencies/x64/Microsoft.ProjectReunion.0.8.msix"
+			Version="8001.186.2159.0" />
+		<Package
+			Name="Microsoft.VCLibs.140.00.UWPDesktop"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="https://github.com/Mario-N/ProvaDeploy/PM_BleChart (Package)_1.0.11.0_Test/Dependencies/x64/Microsoft.VCLibs.x64.14.00.Desktop.appx"
+			Version="14.0.30035.0" />
+		<Package
+			Name="Microsoft.VCLibs.140.00.UWPDesktop"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x86"
+			Uri="https://github.com/Mario-N/ProvaDeploy/PM_BleChart (Package)_1.0.11.0_Test/Dependencies/x86/Microsoft.VCLibs.x86.14.00.Desktop.appx"
+			Version="14.0.30035.0" />
+		<Package
+			Name="Microsoft.VCLibs.140.00"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="https://github.com/Mario-N/ProvaDeploy/PM_BleChart (Package)_1.0.11.0_Test/Dependencies/x64/Microsoft.VCLibs.x64.14.00.appx"
+			Version="14.0.30035.0" />
+		<Package
+			Name="Microsoft.VCLibs.140.00"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x86"
+			Uri="https://github.com/Mario-N/ProvaDeploy/PM_BleChart (Package)_1.0.11.0_Test/Dependencies/x86/Microsoft.VCLibs.x86.14.00.appx"
+			Version="14.0.30035.0" />
+	</Dependencies>
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>
